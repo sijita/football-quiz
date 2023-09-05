@@ -17,7 +17,7 @@ export default function Footer({
 }) {
   return (
     <div className="flex flex-col gap-5">
-      <ButtonGroup variant="flat" fullWidth>
+      <ButtonGroup variant="light" fullWidth>
         <Button
           onClick={goToPreviousQuestion}
           isDisabled={currentQuestion === 0}
@@ -33,7 +33,7 @@ export default function Footer({
           Siguiente <HiArrowCircleRight size={20} />
         </Button>
       </ButtonGroup>
-      <Button onClick={reset} variant="ghost" fullWidth>
+      <Button onClick={reset} variant="flat" fullWidth>
         Resetear juego
       </Button>
     </div>

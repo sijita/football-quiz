@@ -26,7 +26,7 @@ export default function Game() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-10">
+    <>
       {loading ? (
         <div className="flex gap-5 items-center animate-pulse">
           <p className="text-2xl">Cargando...</p>
@@ -36,7 +36,7 @@ export default function Game() {
         <>
           {!questions.length && <StartButon />}
           {questions.length > 0 && (
-            <>
+            <div className="flex flex-col gap-10 border border-default p-5 rounded-xl">
               <Nav
                 {...{
                   questions,
@@ -56,10 +56,10 @@ export default function Game() {
                   reset,
                 }}
               />
-            </>
+            </div>
           )}
         </>
       )}
-    </div>
+    </>
   );
 }
