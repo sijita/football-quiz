@@ -1,4 +1,3 @@
-"use client";
 import { Button } from "@nextui-org/react";
 import useStartGame from "../hooks/useStartGame";
 
