@@ -8,8 +8,8 @@
   {
     "id": 2,
     "question": "¿Cuántos equipos participan en la Copa Mundial de la FIFA?",
-    "answers": [32, 48, 64, 128],
-    "correctAnswer": 1
+    "answers": [32, 30, 64, 48],
+    "correctAnswer": 3
   },
   {
     "id": 3,
@@ -22,28 +22,28 @@
     "question": "¿Quién es el máximo goleador de la historia de la Copa Mundial de la FIFA?",
     "answers": [
       "Cristiano Ronaldo",
+      "Ronaldo Nazário",
       "Miroslav Klose",
-      "Ronaldo",
       "Gerd Müller"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 2
   },
   {
     "id": 5,
     "question": "¿Quién es el máximo goleador de la historia de la Liga de Campeones de la UEFA?",
     "answers": [
-      "Cristiano Ronaldo",
+      "Robert Lewandowski",
       "Lionel Messi",
       "Karim Benzema",
-      "Robert Lewandowski"
+      "Cristiano Ronaldo"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 6,
     "question": "¿Qué equipo ha ganado más Ligas de Campeones de la UEFA?",
-    "answers": ["Real Madrid", "Barcelona", "Manchester United", "Milan"],
-    "correctAnswer": 0
+    "answers": ["Manchester United", "Barcelona", "Real Madrid", "Milan"],
+    "correctAnswer": 2
   },
   {
     "id": 7,
@@ -54,13 +54,13 @@
   {
     "id": 8,
     "question": "¿Cuál es el club de fútbol con más títulos de la Premier League inglesa?",
-    "answers": ["Manchester United", "Liverpool", "Chelsea", "Arsenal"],
-    "correctAnswer": 0
+    "answers": ["Arsenal", "Liverpool", "Chelsea", "Manchester United"],
+    "correctAnswer": 3
   },
   {
     "id": 9,
     "question": "¿Cuál es el equipo más laureado de la Copa América?",
-    "answers": ["Argentina", "Brasil", "Uruguay", "Uruguay"],
+    "answers": ["Argentina", "Brasil", "Uruguay", "Colombia"],
     "correctAnswer": 2
   },
   {
@@ -71,9 +71,9 @@
   },
   {
     "id": 11,
-    "question": "¿Cuál es el equipo más laureado de la Eurocopa?",
-    "answers": ["Alemania", "Italia", "España", "Francia"],
-    "correctAnswer": 1
+    "question": "¿Cuál es el equipo con un sextete?",
+    "answers": ["Real Madrid", "Bayern Munich", "Liverpool", "Barcelona"],
+    "correctAnswer": 3
   },
   {
     "id": 12,
@@ -82,9 +82,9 @@
       "Cristiano Ronaldo",
       "Michel Platini",
       "Antoine Griezmann",
-      "Cristiano Ronaldo"
+      "Thierry Henry"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": 13,
@@ -132,9 +132,9 @@
       "Thierry Henry",
       "Michel Platini",
       "Karim Benzema",
-      "Zinedine Zidane"
+      "Olivier Giroud"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 3
   },
   {
     "id": 18,
@@ -169,12 +169,12 @@
     "id": 22,
     "question": "¿Cuales son los equipos donde ha jugado Ronaldo Nazario?",
     "answers": [
-      "Barcelona, Inter, Real Madrid, Milan, Corinthians",
-      "Barcelona, Inter, Real Madrid, Milan, Corinthians, Cruzeiro",
       "Barcelona, Inter, Real Madrid, Milan, Corinthians, Cruzeiro, PSV",
+      "Barcelona, Inter, Real Madrid, Milan, Corinthians, Cruzeiro",
+      "Barcelona, Inter, Real Madrid, Milan, Corinthians, Cruzeiro, PSV, Corinthians",
       "Barcelona, Inter, Real Madrid, Milan, Corinthians, Cruzeiro, PSV, Flamengo"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "id": 23,
@@ -184,14 +184,14 @@
   },
   {
     "id": 24,
-    "question": "¿Quién ganó el Balón de Oro en el año 2020?",
+    "question": "¿Quién ganó el Balón de Oro en el año 2022?",
     "answers": [
       "Lionel Messi",
       "Cristiano Ronaldo",
       "Robert Lewandowski",
-      "Neymar Jr."
+      "Karim Benzema"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 25,
@@ -208,8 +208,8 @@
   {
     "id": 27,
     "question": "¿Cuál es el récord de goles en una sola temporada de la Bundesliga alemana?",
-    "answers": ["40 goles", "41 goles", "42 goles", "43 goles"],
-    "correctAnswer": 1
+    "answers": ["42 goles", "41 goles", "40 goles", "43 goles"],
+    "correctAnswer": 2
   },
   {
     "id": 28,
@@ -236,8 +236,8 @@
   {
     "id": 30,
     "question": "¿En qué país se celebró la Copa del Mundo de 2014?",
-    "answers": ["Brasil", "Alemania", "Sudáfrica", "Rusia"],
-    "correctAnswer": 0
+    "answers": ["Qatar", "Alemania", "Brasil", "Rusia"],
+    "correctAnswer": 2
   },
   {
     "id": 31,
@@ -248,7 +248,7 @@
   {
     "id": 32,
     "question": "¿Cuál es el récord de más goles en una temporada de la Liga Premier inglesa?",
-    "answers": ["32 goles", "34 goles", "36 goles", "38 goles"],
+    "answers": ["32 goles", "38 goles", "36 goles", "34 goles"],
     "correctAnswer": 3
   },
   {
@@ -265,25 +265,20 @@
   {
     "id": 34,
     "question": "¿Cuál es el club de fútbol más antiguo de Inglaterra?",
-    "answers": ["Manchester United", "Sheffield FC", "Liverpool", "Arsenal"],
-    "correctAnswer": 1
+    "answers": ["Manchester United", "Arsenal", "Liverpool", "Sheffield FC"],
+    "correctAnswer": 3
   },
   {
     "id": 35,
     "question": "¿En qué año se celebró el primer Mundial de Fútbol?",
-    "answers": ["1930", "1934", "1938", "1950"],
-    "correctAnswer": 0
+    "answers": ["1938", "1934", "1930", "1950"],
+    "correctAnswer": 2
   },
   {
     "id": 36,
     "question": "¿Cuál es el club de fútbol con más títulos de la Bundesliga alemana?",
-    "answers": [
-      "Bayern Munich",
-      "Borussia Dortmund",
-      "Hamburgo",
-      "Werder Bremen"
-    ],
-    "correctAnswer": 0
+    "answers": ["Leipzig", "Borussia Dortmund", "Hamburgo", "Bayern Munich"],
+    "correctAnswer": 3
   },
   {
     "id": 37,
@@ -299,8 +294,8 @@
   {
     "id": 38,
     "question": "¿Cuál es el país con más títulos de la Copa Confederaciones de la FIFA?",
-    "answers": ["Brasil", "Alemania", "Argentina", "Francia"],
-    "correctAnswer": 0
+    "answers": ["Francia", "Alemania", "Argentina", "Brasil"],
+    "correctAnswer": 3
   },
   {
     "id": 39,
@@ -312,12 +307,12 @@
     "id": 40,
     "question": "¿Quién es el máximo goleador de la selección nacional de Uruguay?",
     "answers": ["Luis Suárez", "Diego Forlán", "Edinson Cavani", "Diego Godín"],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": 41,
     "question": "¿Cuál es el récord de más goles en una sola edición de la UEFA Europa League?",
-    "answers": ["12 goles", "14 goles", "16 goles", "18 goles"],
+    "answers": ["12 goles", "14 goles", "17 goles", "18 goles"],
     "correctAnswer": 2
   },
   {
@@ -335,13 +330,13 @@
       "Signal Iduna Park (Alemania)",
       "Estadio Olímpico de Roma (Italia)"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": 44,
     "question": "¿Quién es el jugador más joven en ganar el Balón de Oro?",
     "answers": ["Michael Owen", "Ronaldo Nazário", "Lionel Messi", "Pelé"],
-    "correctAnswer": 2
+    "correctAnswer": 1
   },
   {
     "id": 45,
@@ -357,31 +352,31 @@
   {
     "id": 46,
     "question": "¿Cuántas ligas ha ganado el Real Madrid?",
-    "answers": [32, 33, 34, 35, 36],
+    "answers": [32, 33, 34, 35],
     "correctAnswer": 3
   },
   {
     "id": 47,
     "question": "¿Cuántas ligas ha ganado el Barcelona?",
-    "answers": [22, 31, 34, 30, 27],
-    "correctAnswer": 4
+    "answers": [22, 31, 27, 30],
+    "correctAnswer": 2
   },
   {
     "id": 48,
     "question": "¿Cuántos goles anotó Lionel Messi en el mundial de Qatar 2022?",
-    "answers": [5, 2, 3, 6, 7],
-    "correctAnswer": 4
+    "answers": [5, 7, 3, 6],
+    "correctAnswer": 1
   },
   {
     "id": 49,
     "question": "¿En qué Copa del Mundo Diego Maradona firmó la famosa 'Mano de Dios'?",
-    "answers": [1982, 1986, 1990, 1994, 1998],
+    "answers": [1982, 1986, 1990, 1994],
     "correctAnswer": 1
   },
   {
     "id": 50,
     "question": "¿En qué club de Portugal jugaba Ronaldo antes de ir al Manchester United?",
-    "answers": ["Sporting de Lisboa", "Benfica", "Oporto", "Braga", "Boavista"],
+    "answers": ["Sporting de Lisboa", "Benfica", "Oporto", "Braga"],
     "correctAnswer": 0
   }
 ]
