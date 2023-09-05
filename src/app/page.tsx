@@ -4,7 +4,7 @@ import ThemeSwitcher from "./components/ui/ThemeSwitcher";
 
 export default function Page() {
   return (
-    <main className="flex flex-col gap-10 h-screen justify-center items-center">
+    <main className="flex flex-col gap-10 h-screen justify-center items-center p-10">
       <ThemeSwitcher />
       <Header />
       <Game />

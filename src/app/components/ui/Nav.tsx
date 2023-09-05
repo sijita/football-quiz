@@ -16,7 +16,7 @@ export default function Nav({
   unanswered: number;
 }) {
   return (
-    <div className="flex justify-between">
+    <div className="flex flex-col items-center justify-between gap-5">
       <p className="text-lg">
         {currentQuestion + 1} / {questions.length}
       </p>

@@ -5,7 +5,7 @@ import ListBox from "./ui/ListBox";
 
 export default function Question({ info }: { info: QuestionType }) {
   return (
-    <Card className="max-w-[400px] min-w-[400px]">
+    <Card className="max-w-[400px]">
       <CardHeader className="p-5">
         <h5 className="font-semibold">{info.question}</h5>
       </CardHeader>
