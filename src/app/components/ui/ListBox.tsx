@@ -1,19 +1,8 @@
 "use client";
-import { useState } from "react";
 import { Listbox, ListboxItem } from "@nextui-org/react";
 import { useQuestionsStore } from "@/app/store/questions";
 import { type Question as QuestionType } from "@/app/types";
-
-const getBackgroundColor = (info: QuestionType, index: number) => {
-  const { userSelectedAnswer, correctAnswer } = info;
-
-  if (index !== userSelectedAnswer && index !== correctAnswer)
-    return "transparent";
-  if (index === correctAnswer && index === userSelectedAnswer) return "success";
-  if (index === userSelectedAnswer) return "danger";
-
-  return "transparent";
-};
+import { getBackgroundColor } from "@/app/utils/getBackgroundColor";
 
 export default function ListBox({ info }: { info: QuestionType }) {
   const selectAnswer = useQuestionsStore((state) => state.selectAnswer);
@@ -22,22 +11,28 @@ export default function ListBox({ info }: { info: QuestionType }) {
     selectAnswer(info.id, answerIndex);
   };
 
+  const keys = info.answers.map((_, i) => i.toString());
+
+  const answers = info.answers.map((answer, index) => ({
+    key: index,
+    label: answer,
+  }));
+
   return (
     <Listbox
-      aria-label="Single selection example"
-      variant="faded"
-      disallowEmptySelection
-      selectionMode="single"
+      items={answers}
+      onAction={(key) => handleClick(parseInt(key.toString()))()}
+      disabledKeys={info.userSelectedAnswer != null ? keys : []}
+      className="p-0"
     >
-      {info.answers.map((answer, i) => (
+      {(item) => (
         <ListboxItem
-          key={i}
-          onClick={handleClick(i)}
-          className={`bg-${getBackgroundColor(info, i)}`}
+          key={item.key}
+          className={`bg-${getBackgroundColor(info, item.key)}`}
         >
-          {answer}
+          {item.label}
         </ListboxItem>
-      ))}
+      )}
     </Listbox>
   );
 }
