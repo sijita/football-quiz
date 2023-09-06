@@ -167,13 +167,8 @@
   },
   {
     "id": 22,
-    "question": "¿Cuales son los equipos donde ha jugado Ronaldo Nazario?",
-    "answers": [
-      "Barcelona, Inter, Real Madrid, Milan, Corinthians, Cruzeiro, PSV",
-      "Barcelona, Inter, Real Madrid, Milan, Corinthians, Cruzeiro",
-      "Barcelona, Inter, Real Madrid, Milan, Corinthians, Cruzeiro, PSV, Corinthians",
-      "Barcelona, Inter, Real Madrid, Milan, Corinthians, Cruzeiro, PSV, Flamengo"
-    ],
+    "question": "¿En qué año fue el célebre Maracanazo?",
+    "answers": ["1962", "1980", "1950", "1986"],
     "correctAnswer": 2
   },
   {
