@@ -156,14 +156,14 @@
   },
   {
     "id": 21,
-    "question": "¿Cuales son los equipos donde ha jugado Ronaldinho Gaúcho?",
+    "question": "¿Quién fue el goleador del mundial 2014?",
     "answers": [
-      "Barcelona, PSG, Milan, Flamengo, Atlético Mineiro, Querétaro, Fluminense",
-      "Barcelona, PSG, Milan, Flamengo, Atlético Mineiro, Querétaro, Fluminense, Corinthians",
-      "Barcelona, PSG, Milan, Flamengo, Atlético Mineiro, Querétaro, Fluminense, Corinthians, Gremio",
-      "Barcelona, PSG, Milan, Flamengo, Atlético Mineiro, Querétaro, Fluminense, Corinthians, Gremio, Barcelona SC"
+      "Neymar",
+      "Miroslav Klose",
+      "Thomas Müller",
+      "James Rodriguez"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 3
   },
   {
     "id": 22,
